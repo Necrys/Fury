@@ -51,6 +51,11 @@ add_executable ( furyed WIN32
   ${COMMON_SRC}
 )
 
+target_compile_options ( furyed
+  PRIVATE
+    "/MP"
+)
+
 target_include_directories ( furyed
   PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}

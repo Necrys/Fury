@@ -45,6 +45,11 @@ target_compile_definitions ( fury
     NOEDIT
 )
 
+target_compile_options ( fury
+  PRIVATE
+    "/MP"
+)
+
 target_include_directories ( fury
   PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
