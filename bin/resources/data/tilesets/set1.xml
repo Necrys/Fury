@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<tileset name="default">
+	<static texture="set1-stat.tga">
+	
+		<element id="001" name="ground 2x1 0" 	x="768" y="576" w="96"	h="48"  />
+		<element id="002" name="ground 1x1 0" 	x="768" y="576" w="48"	h="48"  />
+		<element id="003" name="ground 1x1 1" 	x="816" y="576" w="48"	h="48"  />
+		<element id="004" name="ground 2x1 1" 	x="816" y="576" w="96"	h="48"  />
+		
+		
+		<element id="100" name="Grass 0-1" 		x="0" 	y="0" 	w="96"	h="64"  />
+		<element id="101" name="Grass 0" 		x="0" 	y="0" 	w="48"	h="64"  />
+		<element id="102" name="Grass 1" 		x="48" 	y="0" 	w="48" 	h="64"	/>
+		
+		<element id="010" name="Zero object"	x="0"	y="0"	w="1" 	h="1"/>
+		
+		<element id="1238" name="Hlopus 1"		texture="set1-decor.tga"  		x="480" y="432"	w="152"	h="72" icon_scale="0.5"/>
+		<element id="1239" name="Hlopus 2"		texture="set1-decor.tga"  		x="480" y="504"	w="152"	h="80" icon_scale="0.5"/>
+		
+		<element id="103" name="Grass -25 0" 	x="96"	y="0" 	w="96" 	h="112"	icon_scale="0.5"/>
+		<element id="107" name="Grass -25 1" 	x="384" y="0" 	w="96" 	h="112"	icon_scale="0.5"/>
+		<element id="105" name="Grass -45 0" 	x="288" y="0" 	w="48" 	h="112"	icon_scale="0.5"/>
+		<element id="109" name="Grass -45 1" 	x="576" y="0" 	w="48" 	h="112"	icon_scale="0.5"/>
+		<element id="104" name="Grass +25 0" 	x="192" y="0" 	w="96" 	h="112"	icon_scale="0.5"/>
+		<element id="108" name="Grass +25 1" 	x="480" y="0" 	w="96" 	h="112"	icon_scale="0.5"/>
+		<element id="110" name="Grass +45 0" 	x="624" y="0" 	w="48" 	h="112"	icon_scale="0.5"/>
+		<element id="106" name="Grass +45 1" 	x="336" y="0" 	w="48" 	h="112"	icon_scale="0.5"/>
+		<element id="111" name="Grass cavity 0"	x="0" 	y="64" 	w="96" 	h="64"	/>
+		<element id="112" name="Grass cavity 1"	x="0" 	y="128"	w="96" 	h="64"	/>
+		<element id="113" name="Grass hill 0" 	x="96"  y="112" w="96" 	h="80"	icon_scale="0.75"/>
+		<element id="114" name="Grass hill 1" 	x="192" y="112" w="96" 	h="80"	icon_scale="0.75"/>
+		
+		<element id="140" name="Grass-stone 0" 	x="0" 	y="192" w="96" 	h="64"	/>
+		<element id="141" name="Grass-stone 1" 	x="0" 	y="256" w="96" 	h="64"	/>
+		<element id="142" name="Stone-grass 0" 	x="0" 	y="320" w="96" 	h="64"	/>
+		<element id="143" name="Stone-grass 1" 	x="768"	y="0"	w="96" 	h="64"	/>
+		
+		<element id="144" name="Grass-sand 0" 	x="120" y="864" w="96" 	h="64"	/>
+		<element id="145" name="Grass-sand 1" 	x="120" y="928" w="96" 	h="64"	/>
+		<element id="146" name="Sand-grass 0" 	x="216" y="864" w="96" 	h="64"	/>
+		<element id="147" name="Sand-grass 1" 	x="720"	y="960"	w="96" 	h="64"	/>
+		
+		<element id="150" name="StoneLong 0"	x="288" y="112" w="96" 	h="24"	/>
+		<element id="151" name="StoneLong 1"	x="288" y="136" w="96" 	h="24"	/>
+		<element id="152" name="StoneShort 0"	x="288" y="160" w="48" 	h="24"	/>
+		<element id="153" name="StoneShort 1"	x="336" y="160" w="48" 	h="24"	/>
+		<element id="154" name="Stone -25 0"	x="384" y="112" w="96" 	h="72"	icon_scale="0.75"/>
+		<element id="158" name="Stone -25 1"	x="672" y="112" w="96" 	h="72"	icon_scale="0.75"/>	
+		<element id="156" name="Stone -45 0"	x="576" y="112" w="48" 	h="72"	icon_scale="0.75"/>	
+		<element id="160" name="Stone -45 1"	x="864" y="112" w="48" 	h="72"	icon_scale="0.75"/>
+		<element id="155" name="Stone +25 0"	x="480" y="112" w="96" 	h="72"	icon_scale="0.75"/>
+		<element id="159" name="Stone +25 1"	x="768" y="112" w="96" 	h="72"	icon_scale="0.75"/>
+		<element id="161" name="Stone +45 0"	x="912" y="112" w="48" 	h="72"	icon_scale="0.75"/>
+		<element id="157" name="Stone +45 1"	x="624" y="112" w="48" 	h="72"	icon_scale="0.75"/>
+		
+		<element id="180" name="groundForStone 0"	x="768" y="592" w="48"	h="32"  />
+		<element id="181" name="groundForStone 1"	x="816" y="592" w="48"	h="32"  />
+		<element id="182" name="groundForStone 0-1"	x="768" y="592" w="96"	h="32"  />
+		<element id="183" name="groundForStone 1-1"	x="816" y="592" w="96"	h="32"  />
+		
+		<element id="190" name="Stone-Sand 0"		x="672" y="0"	w="48" 	h="56"	icon_scale="0.75"/>
+		<element id="191" name="Stone-Sand 1"		x="672" y="56"	w="48" 	h="56"	icon_scale="0.75"/>
+		<element id="192" name="Sand-stone 0"		x="720" y="0"	w="48" 	h="56"	icon_scale="0.75"/>
+		<element id="193" name="Sand-stone 1"		x="720" y="56"	w="48" 	h="56"	icon_scale="0.75"/>
+		
+		<element id="200" name="Grass-sand +45 0" 	x="864"	y="0"	w="24" 	h="112"	icon_scale="0.5"/>
+		<element id="201" name="Grass-sand -45 0" 	x="888"	y="0"	w="24" 	h="112"	icon_scale="0.5"/>
+		<element id="202" name="Grass-sand +45 1" 	x="912"	y="0"	w="24" 	h="112"	icon_scale="0.5"/>
+		<element id="203" name="Grass-sand -45 1" 	x="936"	y="0"	w="24" 	h="112"	icon_scale="0.5"/>
+		
+		<element id="204" name="sand-down 0" 		x="720"	y="672"	w="48" 	h="48" />
+		<element id="205" name="sand-down 1" 		x="768"	y="672"	w="48" 	h="48" />
+		<element id="206" name="sand-down -25 0" 	x="912"	y="816"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="207" name="sand-down -25 1" 	x="912"	y="912"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="208" name="sand-down +25 0" 	x="816"	y="816"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="209" name="sand-down +25 1" 	x="816"	y="912"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="210" name="sand-down +45 0" 	x="96"	y="336"	w="48" 	h="48"/>
+		<element id="211" name="sand-down +45 1" 	x="144"	y="336"	w="48" 	h="48"/>
+		<element id="212" name="sandChogDwn+45 0" 	x="96"	y="288"	w="48" 	h="48"/>
+		<element id="213" name="sandChogDwn+45 1" 	x="144"	y="288"	w="48" 	h="48"/>
+		<element id="214" name="sand-left -25 0" 	x="288"	y="288"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="215" name="sand-left -25 1" 	x="480"	y="288"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="216" name="sand-left 0" 		x="96"	y="192"	w="48" 	h="48"/>
+		<element id="217" name="sand-left 1" 		x="144"	y="192"	w="48" 	h="48"/>
+		<element id="218" name="sand-left +25 0" 	x="288"	y="192"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="219" name="sand-left +25 1" 	x="480"	y="192"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="220" name="sand-up -45 0" 		x="960"	y="96"	w="48" 	h="48"/>
+		<element id="221" name="sand-up -45 1" 		x="960"	y="144"	w="48" 	h="48"/>
+		<element id="222" name="sandChogeUp -45 0" 	x="960"	y="0"	w="48" 	h="48"/>
+		<element id="223" name="sandChogeUp -45 1" 	x="960"	y="48"	w="48" 	h="48"/>
+		<element id="224" name="sand-up -25 0" 		x="672"	y="192"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="225" name="sand-up -25 1" 		x="672"	y="288"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="226" name="sand-up 0" 			x="768"	y="64"	w="48" 	h="48"/>
+		<element id="227" name="sand-up 1" 			x="816"	y="64"	w="48" 	h="48"/>
+		<element id="228" name="sand-up +25 0" 		x="768"	y="192"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="229" name="sand-up +25 1" 		x="768"	y="288"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="230" name="sand-up +45 0" 		x="192"	y="192"	w="48" 	h="48"/>
+		<element id="231" name="sand-up +45 1" 		x="240"	y="192"	w="48" 	h="48"/>
+		<element id="232" name="sandChogeUp +45 0" 	x="192"	y="240"	w="48" 	h="48"/>
+		<element id="233" name="sandChogeUp +45 1" 	x="240"	y="240"	w="48" 	h="48"/>
+		<element id="234" name="sand-right -25 0" 	x="384"	y="192"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="235" name="sand-right -25 1" 	x="576"	y="192"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="236" name="sand-right 0" 		x="96"	y="240"	w="48" 	h="48"/>
+		<element id="237" name="sand-right 1" 		x="144"	y="240"	w="48" 	h="48"/>
+		<element id="238" name="sand-right +25 0" 	x="384"	y="288"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="239" name="sand-right +25 1" 	x="576"	y="288"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="240" name="sand-down -45 0" 	x="192"	y="336"	w="48" 	h="48"/>
+		<element id="241" name="sand-down -45 1" 	x="240"	y="336"	w="48" 	h="48"/>
+		<element id="242" name="sandChogDwn-45 0" 	x="192"	y="288"	w="48" 	h="48"/>
+		<element id="243" name="sandChogDwn-45 1" 	x="240"	y="288"	w="48" 	h="48"/>
+		
+		<element id="244" name="sand-hill-up 0" 	x="864"	y="192"	w="96" 	h="24"/>
+		<element id="245" name="sand-hill-up 1" 	x="864"	y="240"	w="96" 	h="24"/>
+		<element id="246" name="sand-hill-down 0" 	x="864"	y="216"	w="96" 	h="24"/>
+		<element id="247" name="sand-hill-down 1" 	x="864"	y="264"	w="96" 	h="24"/>
+		<element id="248" name="sand-hill-left 0" 	x="864"	y="288"	w="24" 	h="96" icon_scale="0.75"/>
+		<element id="249" name="sand-hill-left 1" 	x="912"	y="288"	w="24" 	h="96" icon_scale="0.75"/>
+		<element id="250" name="sand-hil-right 0" 	x="888"	y="288"	w="24" 	h="96" icon_scale="0.75"/>
+		<element id="251" name="sand-hil-right 1" 	x="936"	y="288"	w="24" 	h="96" icon_scale="0.75"/>
+		
+		<element id="252" name="sand-DL-round 0" 	x="960"	y="240"	w="48" 	h="48" />
+		<element id="253" name="sand-DL-round 1" 	x="960"	y="336"	w="48" 	h="48" />
+		<element id="254" name="sand-LU-round 0" 	x="960"	y="192"	w="48" 	h="48" />
+		<element id="255" name="sand-LU-round 1" 	x="960"	y="288"	w="48" 	h="48" />
+		<element id="256" name="sand-UR-ound 0" 	x="960"	y="384"	w="48" 	h="48" />
+		<element id="257" name="sand-UR-round 1" 	x="960"	y="480"	w="48" 	h="48" />
+		<element id="258" name="sand-RD-round 0" 	x="960"	y="432"	w="48" 	h="48" />
+		<element id="259" name="sand-RD-round 1" 	x="960"	y="528"	w="48" 	h="48" />
+		<element id="260" name="sand-L-cavity 0" 	x="816"	y="624"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="261" name="sand-L-cavity 1" 	x="816"	y="720"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="262" name="sand-R-cavity 0" 	x="960"	y="624"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="263" name="sand-R-cavity 1" 	x="960"	y="720"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="264" name="sand-U-cavity 0" 	x="864"	y="624"	w="96" 	h="48" />
+		<element id="265" name="sand-U-cavity 1" 	x="864"	y="720"	w="96" 	h="48" />
+		<element id="266" name="sand-D-cavity 0" 	x="864"	y="672"	w="96" 	h="48" />
+		<element id="267" name="sand-D-cavity 1" 	x="864"	y="768"	w="96" 	h="48" />
+		
+		<element id="300" name="block 1x1" 			x="48"	y="528"	w="48" 	h="48"/>
+		<element id="301" name="block 2x1" 			x="96"	y="528"	w="96" 	h="48"/>
+		<element id="302" name="ramp-down +45" 		x="48"	y="384"	w="48" 	h="48"/>
+		<element id="303" name="ramp-down -45" 		x="0"	y="384"	w="48" 	h="48"/>
+		<element id="304" name="ramp-up +45" 		x="0"	y="432"	w="48" 	h="48"/>
+		<element id="305" name="ramp-up -45" 		x="48"	y="432"	w="48" 	h="48"/>
+		<element id="306" name="ramp-domn +25" 		x="96"	y="480"	w="96" 	h="48"/>
+		<element id="307" name="ramp-domn -25" 		x="0"	y="480"	w="96" 	h="48"/>
+		<element id="308" name="ramp-left -25" 		x="144"	y="384"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="309" name="ramp-right +25" 	x="96"	y="384"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="310" name="ramp-left +25" 		x="240"	y="384"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="311" name="ramp-right -25" 	x="192"	y="384"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="312" name="ramp-up -25" 		x="192"	y="528"	w="96" 	h="48"/>
+		<element id="313" name="ramp-up +25" 		x="192"	y="480"	w="96" 	h="48"/>
+		<element id="314" name="block SAD 2x2" 		x="288"	y="384"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="315" name="block EVIL 2x2" 	x="288"	y="480"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="316" name="block 2x4" 			x="768"	y="384"	w="96" 	h="144" icon_scale="0.5"/>
+		<element id="317" name="block-a 2x1" 		x="768"	y="528"	w="96" 	h="48"/>
+		<element id="318" name="block-b 2x1" 		x="864"	y="384"	w="96" 	h="48"/>
+		<element id="319" name="block 1x1 red " 	x="864"	y="432"	w="48" 	h="48"/>
+		<element id="320" name="block 1x1 yellow" 	x="912"	y="432"	w="48" 	h="48"/>
+		<element id="321" name="block 1x1 green"  	x="864"	y="480"	w="48" 	h="48"/>
+		<element id="322" name="block 1x1 blue" 	x="912"	y="480"	w="48" 	h="48"/>
+		<element id="323" name="cilinder-a 1x1"	 	x="864"	y="528"	w="48" 	h="48"/>
+		<element id="324" name="cilinder-b 1x1" 	x="912"	y="528"	w="48" 	h="48"/>
+		<element id="325" name="cilinder-c 1x1"		x="768"	y="624"	w="48" 	h="48"/>
+		<element id="326" name="cilinder-d 1x1" 	x="912"	y="576"	w="48" 	h="48"/>
+		<element id="327" name="cilinder-e 1x1" 	x="960"	y="576"	w="48" 	h="48"/>
+		<element id="328" name="cilinder-f 1x1" 	x="720"	y="864"	w="48" 	h="48"/>
+		<element id="329" name="cilinder-g 1x1" 	x="768"	y="864"	w="48" 	h="48"/>
+		
+		<element id="330" name="mini-block-a" 		x="0"	y="528"	w="24" 	h="48"/>
+		<element id="331" name="mini-block-b2" 		x="24"	y="528"	w="24" 	h="48"/>
+		<element id="332" name="Changer-U-green" 	x="384"	y="384"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="333" name="Changer-D-green" 	x="384"	y="432"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="334" name="Changer-U-red" 		x="384"	y="480"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="335" name="Changer-D-red"		x="384"	y="528"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="336" name="Changer-U-blue" 	x="576"	y="384"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="337" name="Changer-D-blue" 	x="576"	y="432"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="338" name="Changer-U-yellow" 	x="576"	y="480"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="339" name="Changer-D-yellow" 	x="576"	y="528"	w="48" 	h="48" frames="4" fps="8"/>
+						
+		<element id="340" name="Changer-L-green" 		x="48"	y="672"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="341" name="Changer-R-green" 		x="48"	y="720"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="342" name="Changer-L-red" 			x="48"	y="768"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="343" name="Changer-R-red"	 		x="48"	y="816"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="344" name="Changer-L-yellow" 		x="240"	y="672"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="345" name="Changer-R-yellow" 		x="240"	y="720"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="346" name="Changer-L-blue" 		x="240"	y="768"	w="48" 	h="48" frames="4" fps="8"/>
+		<element id="347" name="Changer-R-blue"	 		x="240"	y="816"	w="48" 	h="48" frames="4" fps="8"/>
+
+		<element id="350" name="Lamp"	 				x="312"	y="864"	w="48" 	h="80"/>
+		
+		<element id="351" name="House"	 				x="432"	y="832"	w="192" h="168"/>
+		
+		
+		
+		<element id="390" name="Spikes-on-grass"	 	x="720"	y="912"	w="96" 	h="48"/>
+		<element id="391" name="Spikes-on-stones"	 	x="584"	y="736"	w="96" 	h="48"/>
+		
+		<element id="400" name="Tree-trunk-0" 			x="0"	y="576"	w="64" 	h="48"/>
+		<element id="401" name="Tree-trunk-1" 			x="0"	y="624"	w="64" 	h="48"/>
+		<element id="403" name="Tree-small-trunk" 		x="0"	y="912"	w="48" 	h="96" icon_scale="0.75"/>
+		<element id="404" name="Tree-root" 				x="64"	y="576"	w="192" h="96" icon_scale="0.5"/>
+		<element id="405" name="Tree-small-root" 		x="624"	y="576"	w="144" h="96" icon_scale="0.75"/>
+		<element id="406" name="Tree-trunk-narrow" 		x="368"	y="576"	w="64"	h="96" icon_scale="0.75"/>
+		<element id="407" name="Tree-branching-L" 		x="256"	y="576"	w="112" h="48" icon_scale="0.75"/>
+		<element id="408" name="Tree-branching-R" 		x="256"	y="624"	w="112" h="48" icon_scale="0.75"/>		
+		<element id="409" name="Tree-top-a" 			x="432"	y="576"	w="48"  h="48"/>
+		<element id="410" name="Tree-top-b" 			x="432"	y="624"	w="48"  h="48"/>
+		<element id="411" name="Tree-brunch-left" 		x="0"	y="672"	w="48"  h="40"/>
+		<element id="412" name="Tree-brunch-right" 		x="0"	y="752"	w="48"  h="40"/>
+		<element id="413" name="Tree-brunch-up" 		x="480"	y="576"	w="32"  h="48"/>
+				
+		<element id="415" name="Tree-knot-down" 		x="512"	y="576"	w="32"  h="24"/>
+		<element id="416" name="Tree-knot-up" 			x="512"	y="600"	w="32"  h="32"/>
+		<element id="417" name="Tree-rounding a" 		x="480"	y="624"	w="32"  h="32"/>
+		<element id="418" name="Tree-rounding b"		x="1008" y="96"	w="16"  h="32"/>
+		<element id="419" name="Tree-rounding c" 		x="544"	y="576"	w="24"  h="24"/>
+		<element id="420" name="Tree-rounding d" 		x="568"	y="576"	w="32"  h="32"/>
+		<element id="421" name="Tree-rounding e" 		x="600"	y="576"	w="24"  h="32"/>
+		<element id="422" name="Tree-rounding f" 		x="512"	y="632"	w="24"  h="32"/>
+		<element id="423" name="Tree-end-RU"   			x="0"	y="712"	w="48"  h="40"/>
+		<element id="424" name="Tree-end-LU"  			x="0"	y="792"	w="48"  h="40"/>
+		<element id="425" name="Tree-end-RD"   			x="0"	y="832"	w="48"  h="40"/>
+		<element id="426" name="Tree-end-LD"  			x="0"	y="872"	w="48"  h="40"/>
+		<element id="427" name="Tree-end-U"   			x="1008" y="48"	w="16"  h="48"/>
+		<element id="428" name="Tree-end-D"   			x="1008" y="0"	w="16"  h="48"/>
+		
+		<element id="499" name="Zero object"	 		x="0"	y="0"	w="1" 	h="1"/>
+				
+		<element id="500" name="Palm-Trunk 1"   		x="48"	y="864"	w="40"  h="160" icon_scale="0.5"/>
+		<element id="501" name="Palm-Trunk 2"   		x="88"	y="864"	w="32"  h="160" icon_scale="0.5"/>
+		
+		<element id="540" name="Weave Root Light"   	x="544"	y="608"	w="40"  h="64" />
+		<element id="541" name="Weave Root Dark"   		x="456"	y="672"	w="40"  h="64" />
+		<element id="542" name="Weave main Light"   	x="584"	y="608"	w="24"  h="64" />
+		<element id="543" name="Weave main Dark"   		x="496"	y="672"	w="24"  h="64" />
+		<element id="544" name="Weave end Light" 	  	x="432"	y="672"	w="24"  h="64" />
+		<element id="545" name="Weave end Dark"   		x="520"	y="672"	w="24"  h="64" />
+		
+		<element id="550" name="Weave Leave B-R"   		x="544"	y="672"	w="72"  h="32" />
+		<element id="551" name="Weave Leave B-L"   		x="544"	y="704"	w="72"  h="32" />
+		<element id="552" name="Weave Leave M-R"   		x="616"	y="672"	w="56"  h="32" />
+		<element id="553" name="Weave Leave M-L"   		x="616"	y="704"	w="56"  h="32" />
+		<element id="554" name="Weave Leave S-R"   		x="672"	y="672"	w="48"  h="24" />
+		<element id="555" name="Weave Leave S-L"   		x="672"	y="696"	w="48"  h="24" />
+		
+		<element id="560" name="Weave awn 1-R"   		x="432"	y="736"	w="64"  h="48" />
+		<element id="561" name="Weave awn 2-L"   		x="496"	y="736"	w="48"  h="48" />
+		<element id="562" name="Weave awn 3-L"   		x="680"	y="720"	w="40"  h="64" />
+		<element id="563" name="Weave awn 4-R"   		x="544"	y="736"	w="40"  h="40" />
+		
+	</static>
+	
+	<foreground texture="set1-decor.tga">
+	
+		<element id="1000" name="Black 1x1" 		texture="masking.tga" 	x="50" 	y="60" w="1"	h="1"   scale="48"/>
+		<element id="1001" name="Black 2x2" 		texture="masking.tga" 	x="50"	y="60" w="1"	h="1" 	scale="96"/>
+		<element id="999" name="Black 1x2" 			texture="masking.tga" 	x="50" 	y="60" w="1"	h="2"   scale="48"/>
+		<element id="997" name="Black 4x4" 			texture="masking.tga" 	x="50" 	y="60" w="2"	h="2"   scale="96" icon_scale="0.1"/>
+		<element id="996" name="Black 6x6" 			texture="masking.tga" 	x="50"	y="60" w="3"	h="3" 	scale="96" icon_scale="0.1"/>
+		<element id="1032" name="Grad Down 1x1" 	texture="masking.tga" 	x="0" 	y="0" w="48"	h="48"  />
+		<element id="1033" name="Grad Down 2x1" 	texture="masking.tga" 	x="0" 	y="0" w="96"	h="48"  />
+		<element id="1004" name="Grad Down +25" 	texture="masking.tga" 	x="0" 	y="96" w="96"	h="96"  icon_scale="0.75"/>
+		<element id="1008" name="Grad Down +45 a" 	texture="masking.tga" 	x="0"   y="48" 	w="48"	h="48"  />
+		<element id="1009" name="Grad Down +45 b" 	texture="masking.tga" 	x="48" 	y="48" 	w="48"	h="48"  />
+		
+		<element id="1700" name="Water 1x1" 		texture="masking.tga" 	x="146" y="60" w="1"	h="1"   scale="48"/>
+		<element id="1701" name="Water 2x2" 		texture="masking.tga" 	x="146"	y="60" w="1"	h="1" 	scale="96"/>
+		<element id="1702" name="Water 1x2" 		texture="masking.tga" 	x="146" y="60" w="1"	h="2"   scale="48"/>
+		<element id="1703" name="Water 4x4" 		texture="masking.tga" 	x="146" y="60" w="2"	h="2"   scale="96" icon_scale="0.1"/>
+		<element id="1704" name="Water 6x6" 		texture="masking.tga" 	x="146"	y="60" w="3"	h="3" 	scale="96" icon_scale="0.1"/>
+		<element id="1705" name="Water Down 1x1" 	texture="masking.tga" 	x="96" 	y="0" w="48"	h="48"  />
+		<element id="1706" name="Water Down 2x1" 	texture="masking.tga" 	x="96" 	y="0" w="96"	h="48"  />
+		<element id="1707" name="Water Down +25" 	texture="masking.tga" 	x="96" 	y="96" w="96"	h="96"  icon_scale="0.75"/>
+		<element id="1708" name="Water Down +45 a" 	texture="masking.tga" 	x="96"  y="48" 	w="48"	h="48"  />
+		<element id="1709" name="Water Down +45 b" 	texture="masking.tga" 	x="144" y="48" 	w="48"	h="48"  />
+						
+		<element id="1740" name="Water-surface" 	texture="masking.tga" 	x="0"  y="504" 	w="24"	h="8"  	frames="20" fps="25"/>
+		<element id="1741" name="Water-surf-l" 		texture="masking.tga" 	x="0"  	y="488" w="48"	h="8"  	frames="20" fps="25"/>
+		<element id="1742" name="Water-surf-r" 		texture="masking.tga" 	x="0"  	y="496" w="48"	h="8"  	frames="20" fps="25"/>
+						
+		<element id="1101" name="TreeLeaves Big 1" 	 	x="192" y="0" 	w="96"	h="96"  />
+		<element id="1102" name="TreeLeaves Big 2" 	 	x="288" y="0" 	w="96"	h="96"  />
+		<element id="1103" name="TreeLeaves Big 3" 	 	x="384" y="0" 	w="96"	h="96"  />
+		<element id="1104" name="TreeLeaves Big 4" 	 	x="480" y="0" 	w="96"	h="96"  />
+		<element id="1105" name="TreeLeaves Big 5" 		x="576" y="0" 	w="96"	h="96"  />
+		<element id="1106" name="TreeLeaves Big 6" 		x="672" y="0" 	w="96"	h="96"  />
+		
+		<element id="1107" name="TreeLeaves med 1" 		x="0" 	y="176" w="64"	h="64"  />
+		<element id="1108" name="TreeLeaves med 2" 		x="64" 	y="176" w="64"	h="64"  />		
+		<element id="1109" name="TreeLeaves med 3" 		x="128" y="176" w="64"	h="64"  />
+		<element id="1110" name="TreeLeaves med 4" 		x="0" 	y="240" w="64"	h="64"  />
+		<element id="1111" name="TreeLeaves med 5" 	 	x="64" 	y="240" w="64"	h="64"  />		
+		<element id="1112" name="TreeLeaves med 6" 	 	x="128" y="240" w="64"	h="64"  />			
+		
+		<element id="1200" name="PalmLeaves 1" 		 	x="0"	y="0"  	w="192"	h="88"  icon_scale="0.5"/>
+		<element id="1201" name="PalmLeaves 2" 		 	x="0" 	y="88"	w="192"	h="88"  icon_scale="0.5"/>
+		
+		<element id="1210" name="IveLeaves 1" 		 	x="624"	y="288" w="192"	h="152" icon_scale="0.5"/>
+		<element id="1211" name="IveLeaves 2" 		 	x="816" y="288" w="192"	h="152" icon_scale="0.5"/>		
+		
+		<element id="1220" name="Low Plant 1"			x="768" y="0" 	w="144"	h="48"  icon_scale="0.5"/>
+		<element id="1221" name="Low Plant 2"		 	x="768" y="48"	w="144"	h="48"  icon_scale="0.5"/>
+		
+		<element id="1230" name="Little bush 1"		 	x="0" 	y="304"	w="96"	h="88"  icon_scale="0.75"/>
+		<element id="1231" name="Little bush 2"		 	x="96" 	y="304"	w="96"	h="88"  icon_scale="0.75"/>
+		<element id="1232" name="Big bush 1"		 	x="192" y="96"	w="144"	h="136" icon_scale="0.5"/>
+		<element id="1233" name="Big bush 2"		 	x="192" y="232"	w="144"	h="128" icon_scale="0.5"/>
+		
+		<element id="1238" name="Hlopus 1"		 		x="480" y="432"	w="160"	h="96" icon_scale="0.5"/>
+		<element id="1239" name="Hlopus 2"		 		x="640" y="440"	w="160"	h="96" icon_scale="0.5"/>
+		
+		<element id="1234" name="Ground bush 1"		 	x="176" y="528"	w="64"	h="64" icon_scale="0.5"/>
+		<element id="1235" name="Ground bush 2"		 	x="240" y="528"	w="56"	h="64" icon_scale="0.5"/>
+		<element id="1236" name="Ground bush 3"		 	x="296" y="528"	w="64"	h="64" icon_scale="0.5"/>
+		<element id="1237" name="Ground bush 4"		 	x="672" y="608"	w="64"	h="80" icon_scale="0.5"/>
+		
+		<element id="1240" name="Red mushroom 1"		x="1008" y="240" w="16"	h="24" />
+		<element id="1241" name="Red mushroom 2"		x="1008" y="264" w="16"	h="24" />
+		<element id="1246" name="Big mushroom 1"		x="64" 	y="576" w="32"	h="32" />
+		<element id="1247" name="Big mushroom 2"		x="64"  y="608" w="32"	h="32" />
+		<element id="1242" name="Flower 1"				x="736" y="648" w="48"	h="40" />
+		<element id="1243" name="Flower 2"				x="784" y="648" w="48"	h="40" />
+		<element id="1244" name="Flower 3"				x="736" y="608" w="48"	h="40" />
+		<element id="1245" name="Flower 4"				x="784" y="608" w="48"	h="40" />
+		
+		<element id="1400" name="Mushrooms Smal 1"		x="944" y="0"	w="40"	h="48"  />
+		<element id="1401" name="Mushrooms Smal 2"	 	x="984" y="0"	w="40"	h="48"  />
+		<element id="1402" name="Mushrooms Big 1"	 	x="960" y="688"	w="64"	h="72"  icon_scale="0.75"/>
+		<element id="1403" name="Mushrooms Big 2"	 	x="960" y="760"	w="64"	h="72"  icon_scale="0.75"/>
+		
+		<element id="1420" name="Root start"		 	x="336" y="96"	w="48"	h="48"  />
+		<element id="1421" name="Root main 1"		 	x="384" y="96"	w="48"	h="48"  />
+		<element id="1422" name="Root main 2"		 	x="336" y="144"	w="48"	h="48"  />
+		<element id="1423" name="Root finish"		 	x="384" y="144"	w="48"	h="48"  />
+		
+		<element id="1600" name="Liana start 1"		 	x="192" y="360"	w="56"	h="72"  icon_scale="0.75"/>
+		<element id="1602" name="Liana main 1"		 	x="960" y="48"	w="64"	h="96"  icon_scale="0.75"/>
+		<element id="1603" name="Liana end"			 	x="432" y="96"	w="48"	h="72"  icon_scale="0.75"/>
+		
+		<element id="1630" name="Block Crack 1"		 	x="912" y="0"	w="16"	h="48"/>
+		<element id="1631" name="Block Crack 2"		 	x="928" y="0"	w="16"	h="48"/>
+		<element id="1632" name="Block Crack 3"		 	x="912" y="48"	w="24"	h="48"/>
+		<element id="1633" name="Block Crack 4"			x="936" y="48"	w="24"	h="48"/>
+		
+		<element id="1950" name="Stone Crack 1"		texture="masking.tga"       x="0" 	y="192"	w="48"	h="48"/>
+		<element id="1951" name="Stone Crack 2"		texture="masking.tga"       x="48" 	y="192"	w="48"	h="48"/>
+		<element id="1952" name="Stone Crack 3"		texture="masking.tga"       x="96" 	y="192"	w="48"	h="48"/>
+				
+		<element id="1750" name="Alga-animated" 							x="96"  y="592" w="32"	h="48"  frames="16" fps="12"/>
+		<element id="1761" name="Alga-1" 			x="96"  y="592" w="32"	h="48"  />
+		<element id="1762" name="Alga-2" 			x="160"  y="592" w="32"	h="48"  />
+		<element id="1762" name="Alga-3" 			x="224"  y="592" w="32"	h="48"  />
+		<element id="1762" name="Alga-4" 			x="288"  y="592" w="32"	h="48"  />
+		
+		
+		<element id="1900" name="U-helicopter" 		texture="underground.tga" 	x="0"  	y="0" 	w="192"	h="96" icon_scale="0.5"/>
+		<element id="1901" name="U-chest" 			texture="underground.tga" 	x="0"  	y="96" 	w="96"	h="80" icon_scale="0.75"/>
+		<element id="1902" name="U-bone1" 			texture="underground.tga" 	x="192" y="0" 	w="48"	h="48"/>
+		<element id="1903" name="U-bone2" 			texture="underground.tga" 	x="96"  y="96" 	w="32"	h="40"/>
+		<element id="1904" name="U-bone3" 			texture="underground.tga" 	x="96"  y="136" w="32"	h="40"/>
+		
+	</foreground>
+	
+	<background texture="set1-decor.tga"> 
+		
+		<element id="1000" name="Black 1x1" 		texture="masking.tga" 	x="50" 	y="60" w="1"	h="1"   scale="48"/>
+		<element id="1001" name="Black 2x2" 		texture="masking.tga" 	x="50"	y="60" w="1"	h="1" 	scale="96"/>
+		<element id="999" name="Black 1x2" 			texture="masking.tga" 	x="50" 	y="60" w="1"	h="2"   scale="48"/>
+		<element id="997" name="Black 4x4" 			texture="masking.tga" 	x="50" 	y="60" w="2"	h="2"   scale="96" icon_scale="0.1"/>
+		<element id="996" name="Black 6x6" 			texture="masking.tga" 	x="50"	y="60" w="3"	h="3" 	scale="96" icon_scale="0.1"/>
+		
+		<element id="2050" name="Plate stick"		x="1008" y="144" w="16"	h="48" />
+		<element id="2051" name="Exit Plate"		x="480" y="96"	w="96"	h="48" />
+		<element id="2052" name="??? Plate"			x="576" y="96"	w="96"	h="48" />
+		<element id="2053" name="Danger Plate"		x="480" y="144"	w="96"	h="48" />
+		<element id="2054" name="L Direct Plate"	x="672" y="96"	w="48"	h="48" />
+		<element id="2055" name="R Direct Plate"	x="720" y="96"	w="48"	h="48" />
+		<element id="2056" name="RU Direct Plate"	x="768" y="96"	w="48"	h="48" />
+		<element id="2057" name="RD Direct Plate"	x="816" y="96"	w="48"	h="48" />
+		<element id="2058" name="LU Direct Plate"	x="864" y="96"	w="48"	h="48" />
+		<element id="2059" name="LD Direct Plate"	x="912" y="96"	w="48"	h="48" />
+		
+		<element id="2070" name="House 1"	 		x="632"	y="440"	w="144" h="128"/>
+		<element id="2071" name="House 2"	 		x="360"	y="528"	w="72" 	h="64"/>
+		<element id="2071" name="House 2"	 		x="776"	y="536"	w="56" 	h="72"/>
+		
+		<element id="2100" name="BIG Piramyd" 		x="624" y="144" w="384"	h="144" icon_scale="0.25"/>
+		<element id="2110" name="Palm 1" 			x="336" y="192" w="144"	h="144" icon_scale="0.5"/>
+		<element id="2111" name="Palm 2" 			x="480" y="192" w="144"	h="144" icon_scale="0.5"/>
+		<element id="2112" name="Palm 3" 			x="336" y="336" w="96"	h="96" 	icon_scale="0.5"/>
+		<element id="2113" name="Palm 4" 			x="432" y="336" w="96"	h="96" 	icon_scale="0.5"/>
+		<element id="2114" name="Palm 5" 			x="528" y="336" w="96"	h="96" 	icon_scale="0.5"/>
+		<element id="2115" name="Palm 6" 			x="192" y="432" w="96"	h="96" 	icon_scale="0.5"/>
+		<element id="2116" name="Palm 7" 			x="288" y="432" w="96"	h="96" 	icon_scale="0.5"/>
+		<element id="2117" name="Palm 8" 			x="384" y="432" w="96"	h="96" 	icon_scale="0.5"/>
+		<element id="2118" name="Palm 9" 			x="576" y="144" w="48"	h="48" 	icon_scale="0.5"/>				
+		
+		<element id="2230" name="Little bush 1"		x="0" 	y="304"	w="96"	h="88"  icon_scale="0.75"/>
+		<element id="2231" name="Little bush 2"		x="96" 	y="304"	w="96"	h="88"  icon_scale="0.75"/>
+		<element id="2232" name="Big bush 1"		x="192" y="96"	w="144"	h="136" icon_scale="0.5"/>
+		<element id="2233" name="Big bush 2"		x="192" y="232"	w="144"	h="128" icon_scale="0.5"/>
+		
+		
+		<element id="2550" name="Plate stick"		x="1008" y="976" w="16"	h="48" />
+		<element id="2551" name="Exit Plate"		x="480" y="928"	w="96"	h="48" />
+		<element id="2552" name="??? Plate"			x="576" y="928"	w="96"	h="48" />
+		<element id="2553" name="Danger Plate"		x="480" y="976"	w="96"	h="48" />
+		<element id="2554" name="L Direct Plate"	x="672" y="928"	w="48"	h="48" />
+		<element id="2555" name="R Direct Plate"	x="720" y="928"	w="48"	h="48" />
+		<element id="2556" name="RU Direct Plate"	x="576" y="976"	w="48"	h="48" />
+		<element id="2557" name="RD Direct Plate"	x="624" y="976"	w="48"	h="48" />
+		<element id="2558" name="LU Direct Plate"	x="672" y="976"	w="48"	h="48" />
+		<element id="2559" name="LD Direct Plate"	x="720" y="976"	w="48"	h="48" />
+		
+		<element id="2600" name="main-back 0" 		x="864"	y="832"	w="96" 	h="48" />
+		<element id="2601" name="main-back 1" 		x="864"	y="880"	w="96" 	h="48" />
+		<element id="2602" name="main-back 2" 		x="864"	y="928"	w="96" 	h="48" />
+		<element id="2603" name="main-back 3" 		x="864"	y="976"	w="96" 	h="48" />
+		<element id="2604" name="sand-down 0" 		x="768"	y="928"	w="48" 	h="48" />
+		<element id="2605" name="sand-down 1" 		x="816"	y="928"	w="48" 	h="48" />
+		<element id="2606" name="sand-down +25 0" 	x="576"	y="832"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="2608" name="sand-down -25 0" 	x="672"	y="832"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="2610" name="sand-down +45 0" 	x="0"	y="976"	w="48" 	h="48"/>
+		<element id="2611" name="sand-down +45 1" 	x="48"	y="976"	w="48" 	h="48"/>
+		<element id="2612" name="sandChogDwn+45 0" 	x="0"	y="928"	w="48" 	h="48"/>
+		<element id="2613" name="sandChogDwn+45 1" 	x="48"	y="928"	w="48" 	h="48"/>		
+		<element id="2614" name="sand-left -25 0" 	x="192"	y="928"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="2616" name="sand-left 0" 		x="768"	y="832"	w="48" 	h="48"/>
+		<element id="2617" name="sand-left 1" 		x="816"	y="832"	w="48" 	h="48"/>
+		<element id="2618" name="sand-left +25 0" 	x="192"	y="832"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="2620" name="sand-up -45 0" 	x="0"	y="832"	w="48" 	h="48"/>
+		<element id="2621" name="sand-up -45 1" 	x="48"	y="832"	w="48" 	h="48"/>
+		<element id="2622" name="sandChogeUp -45 0" x="0"	y="880"	w="48" 	h="48"/>
+		<element id="2623" name="sandChogeUp -45 1" x="48"	y="880"	w="48" 	h="48"/>
+		<element id="2626" name="sand-up 0" 		x="768"	y="976"	w="48" 	h="48" />
+		<element id="2627" name="sand-up 1" 		x="816"	y="976"	w="48" 	h="48" />
+		<element id="2630" name="sand-up +45 0" 	x="96"	y="832"	w="48" 	h="48"/>
+		<element id="2631" name="sand-up +45 1" 	x="144"	y="832"	w="48" 	h="48"/>
+		<element id="2632" name="sandChogeUp +45 0" x="96"	y="880"	w="48" 	h="48"/>
+		<element id="2633" name="sandChogeUp +45 1" x="144"	y="880"	w="48" 	h="48"/>
+		<element id="2634" name="sand-right -25 0" 	x="288"	y="832"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="2636" name="sand-right 0" 		x="768"	y="880"	w="48" 	h="48"/>
+		<element id="2637" name="sand-right 1" 		x="816"	y="880"	w="48" 	h="48"/>
+		<element id="2638" name="sand-right +25 0" 	x="288"	y="928"	w="96" 	h="96" icon_scale="0.75"/>
+		<element id="2640" name="sand-down -45 0" 	x="96"	y="976"	w="48" 	h="48"/>
+		<element id="2641" name="sand-down -45 1" 	x="144"	y="976"	w="48" 	h="48"/>
+		<element id="2642" name="sandChogDwn-45 0" 	x="96"	y="928"	w="48" 	h="48"/>
+		<element id="2643" name="sandChogDwn-45 1" 	x="144"	y="928"	w="48" 	h="48"/>
+		
+		<element id="2680" name="Mushrooms Smal 1"	x="672" y="688"	w="64"	h="72"  icon_scale="0.75"/>
+		<element id="2681" name="Mushrooms Smal 2"	x="672" y="760"	w="62"	h="72" 	icon_scale="0.75"/>
+		<element id="2682" name="Mushrooms Big 1"	x="736" y="688"	w="112"	h="144" icon_scale="0.5"/>
+		<element id="2683" name="Mushrooms Big 2"	x="848" y="688"	w="112"	h="144" icon_scale="0.5"/>
+				
+		<element id="2700" name="BackBlock-a 1x1" 	x="0"	y="640"	w="48" 	h="48"/>
+		<element id="2701" name="BackBlock-b 1x1" 	x="192"	y="736"	w="48" 	h="48"/>
+		<element id="2702" name="BackBlock-c 1x1" 	x="240"	y="736"	w="48" 	h="48"/>
+		<element id="2703" name="BackBlock-d 1x1" 	x="240"	y="784"	w="48" 	h="48"/>
+		<element id="2699" name="BackBlock-e 1x1" 	x="384"	y="928"	w="48" 	h="48"/>
+		<element id="2698" name="BackBlock-f 1x1" 	x="384"	y="976"	w="48" 	h="48"/>
+		<element id="2697" name="BackBlock-g 1x1" 	x="432"	y="928"	w="48" 	h="48"/>
+		<element id="2696" name="BackBlock-h 1x1" 	x="432"	y="976"	w="48" 	h="48"/>
+		<element id="2704" name="BackBlock1 0.5x1" 	x="192"	y="784"	w="24" 	h="48"/>
+		<element id="2705" name="BackBlock2 0.5x1" 	x="216"	y="784"	w="24" 	h="48"/>
+		<element id="2706" name="BackBlock-e 2x1" 	x="48"	y="640"	w="96" 	h="48"/>
+		<element id="2707" name="BackBlock-f 2x1" 	x="192"	y="640"	w="96" 	h="48"/>
+		<element id="2708" name="BackBlock-g 2x1" 	x="192"	y="688"	w="96" 	h="48"/>
+		<element id="2709" name="BackBlock-? 1x1" 	x="144"	y="640"	w="48" 	h="48"/>
+		<element id="2710" name="BB-Direct-a 1x1" 	x="0"	y="736"	w="48" 	h="48"/>
+		<element id="2711" name="BB-Direct-b 1x1" 	x="48"	y="736"	w="48" 	h="48"/>
+		<element id="2712" name="BB-Direct-c 1x1" 	x="96"	y="736"	w="48" 	h="48"/>
+		<element id="2713" name="BB-Direct-d 1x1" 	x="144"	y="736"	w="48" 	h="48"/>
+		<element id="2714" name="BB-Direct-e 1x1" 	x="0"	y="688"	w="48" 	h="48"/>
+		<element id="2715" name="BB-Direct-f 1x1" 	x="48"	y="688"	w="48" 	h="48"/>
+		<element id="2716" name="BB-Direct-g 1x1" 	x="96"	y="688"	w="48" 	h="48"/>
+		<element id="2717" name="BB-Direct-h 1x1" 	x="144"	y="688"	w="48" 	h="48"/>
+		<element id="2718" name="BB-Danger 2x1" 	x="96"	y="784"	w="96" 	h="48"/>
+		<element id="2719" name="BB-EXIT 2x1" 		x="0"	y="784"	w="96" 	h="48"/>
+		<element id="2733" name="Back Lamp" 		x="128"	y="504"	w="48"  h="80" 	icon_scale="0.75"/>
+		<element id="2720" name="BB-little 1" 		x="1008" y="192" w="16" h="16"/>
+		<element id="2721" name="BB-little 2" 		x="1008" y="208" w="16" h="32"/>
+		<element id="2722" name="BB-little 3" 		x="248" y="360" w="32" 	h="16"/>
+		<element id="2723" name="BB-BIG-Pic" 		x="128" y="392" w="64" 	h="112" icon_scale="0.5"/>
+		<element id="2732" name="BB-Small-Pic" 		x="0" 	y="576" w="64" 	h="64" 	icon_scale="0.75"/>
+		<element id="2724" name="BB-picture 1" 		x="384" y="832" w="48" 	h="48"/>
+		<element id="2725" name="BB-picture 2" 		x="384" y="880" w="48" 	h="48"/>
+		<element id="2726" name="BB-picture 3" 		x="432" y="832" w="48" 	h="48"/>
+		<element id="2727" name="BB-picture 4" 		x="432" y="880" w="48" 	h="48"/>
+		<element id="2728" name="BB-picture 5" 		x="480" y="832" w="48" 	h="48"/>
+		<element id="2729" name="BB-picture 6" 		x="480" y="880" w="48" 	h="48"/>
+		<element id="2730" name="BB-picture 7" 		x="528" y="832" w="48" 	h="48"/>
+		<element id="2731" name="BB-picture 8" 		x="528" y="880" w="48" 	h="48"/>
+		
+		
+		<element id="2750" name="Back Calendar" 	x="288"	y="640"	w="192" h="192" icon_scale="0.5"/>
+		<element id="2751" name="Back Calendar2" 	x="480"	y="640"	w="192" h="192" icon_scale="0.5"/>
+		
+		<element id="2760" name="Alga-animated" 	x="96"  y="592" w="32"	h="48"  frames="16" fps="12"/>
+		<element id="2761" name="Alga-1" 			x="96"  y="592" w="32"	h="48"  />
+		<element id="2762" name="Alga-2" 			x="160"  y="592" w="32"	h="48"  />
+		<element id="2762" name="Alga-3" 			x="224"  y="592" w="32"	h="48"  />
+		<element id="2762" name="Alga-4" 			x="288"  y="592" w="32"	h="48"  />
+		
+		
+		<element id="2800" name="Back Big Letter" 	x="0"	y="392"	w="128" h="180" icon_scale="0.5"/>
+		<element id="2801" name="Back GNUM" 		x="832"	y="496"	w="192" h="192" icon_scale="0.5"/>
+		
+		
+		
+		
+		
+		
+	</background>
+	
+	<dynamic texture="set1-stat.tga">
+		<start_point id="1" texture="fury.tga" name="Start point"/>
+		<movable_box id="10" name="movable box 2x1" x="720" y="720" w="96" h="48">
+			<friction>0.2</friction>
+			<restitution>0.1</restitution>
+			<density>10.0</density>
+		</movable_box>
+		<movable_box id="11" name="movable box 1x1" x="768" y="768" w="48" h="48">
+			<friction>0.2</friction>
+			<restitution>0.1</restitution>
+			<density>10.0</density>
+		</movable_box>
+		<destructable_box id="12" name="destructable box 1x1" x="720" y="768" w="48" h="48">
+			<friction>0.5</friction>
+			<restitution>0.1</restitution>
+		</destructable_box>
+		<crunch_box id="13" name="crunch box" x="48"	y="528"	w="48" 	h="48"/>
+		<point id="14" name="point" texture="common_icons.png" x="0" y="0" w="48" h="48"/>
+		<lift   id="15" name="lift" x="720" y="720" w="96" h="48"/>
+        
+        <door   id="16" name="door" x="576" y="784" w="48" h="48">
+            <group>0</group>
+        </door>
+        
+        <door   id="17" name="door" x="624" y="784" w="48" h="48">
+            <group>1</group>
+        </door>
+        
+        <door   id="18" name="door" x="672" y="784" w="48" h="48">
+            <group>2</group>
+        </door>
+		
+	    <door   id="23" name="door" x="912"	y="576"	w="48" 	h="48">
+            <group>255</group>
+        </door>	
+        
+        <key    id="19" texture="objects.tga" name="key" x="0" y="0" w="48" h="48">
+            <group>0</group>
+        </key>
+        
+        <key    id="20" texture="objects.tga" name="key" x="48" y="0" w="48" h="48">
+            <group>1</group>
+        </key>
+        
+        <key    id="21" texture="objects.tga" name="key" x="96" y="0" w="48" h="48">
+            <group>2</group>
+        </key>
+		
+		<coin	id="22" texture="coin.tga" name="coin" x="0" y="0" w="32" h="32" frames="24" fps="16">
+			<value>1</value>
+		</coin>
+        
+        <trigger id="23" name="trigger" x="624" y="832" w="48" h="48">
+            <triggered_x>672</triggered_x>
+            <triggered_y>832</triggered_y>
+        </trigger>
+		
+	    <trigger id="24" name="trigger" x="624" y="880" w="48" h="48">
+            <triggered_x>672</triggered_x>
+            <triggered_y>880</triggered_y>
+        </trigger>	
+		
+	    <trigger id="25" name="trigger" x="624" y="928" w="48" h="48">
+            <triggered_x>672</triggered_x>
+            <triggered_y>928</triggered_y>
+        </trigger>
+
+	    <trigger id="26" name="trigger" x="624" y="976" w="48" h="48">
+            <triggered_x>672</triggered_x>
+            <triggered_y>976</triggered_y>
+        </trigger>
+		
+	    <trigger id="27" name="trigger" x="216" y="928" w="48" h="48">
+            <triggered_x>264</triggered_x>
+            <triggered_y>928</triggered_y>
+        </trigger>
+		
+	    <trigger id="28" name="trigger" x="216" y="977" w="48" h="48">
+            <triggered_x>264</triggered_x>
+            <triggered_y>976</triggered_y>
+        </trigger>
+		
+	    <trigger id="29" name="trigger" x="480" y="784" w="48" h="48">
+            <triggered_x>528</triggered_x>
+            <triggered_y>784</triggered_y>
+        </trigger>		
+		
+	</dynamic>
+	
+</tileset>

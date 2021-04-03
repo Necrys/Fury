@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<skin border="8">
+	<left_top texture="resources\ui\gfx\lt_panel_8.png"/>
+	<top texture="resources\ui\gfx\t_panel_8.png"/>
+	<right_top texture="resources\ui\gfx\rt_panel_8.png"/>
+	<right texture="resources\ui\gfx\r_panel_8.png"/>
+	<right_bottom texture="resources\ui\gfx\rb_panel_8.png"/>
+	<bottom texture="resources\ui\gfx\b_panel_8.png"/>
+	<left_bottom texture="resources\ui\gfx\lb_panel_8.png"/>
+	<left texture="resources\ui\gfx\l_panel_8.png"/>
+	<client texture="resources\ui\gfx\c_panel_8.png" tiling="1.0"/>
+	<header texture="resources\ui\gfx\c_panel_8.png" width="16"/>
+	<arrow_icon texture="resources\ui\gfx\icons\ddl_arrow.png"/>
+</skin>

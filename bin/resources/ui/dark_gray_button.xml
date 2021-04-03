@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<skin border="3">
+	<left_top texture="resources\ui\gfx\dark_gray\lt_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\lt_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\lt_button_mp.png"/>
+	<top texture="resources\ui\gfx\dark_gray\t_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\t_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\t_button_mp.png"/>
+	<right_top texture="resources\ui\gfx\dark_gray\rt_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\rt_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\rt_button_mp.png"/>
+	<right texture="resources\ui\gfx\dark_gray\r_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\r_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\r_button_mp.png"/>
+	<right_bottom texture="resources\ui\gfx\dark_gray\rb_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\rb_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\rb_button_mp.png"/>
+	<bottom texture="resources\ui\gfx\dark_gray\b_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\b_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\b_button_mp.png"/>
+	<left_bottom texture="resources\ui\gfx\dark_gray\lb_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\lb_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\lb_button_mp.png"/>
+	<left texture="resources\ui\gfx\dark_gray\l_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\l_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\l_button_mp.png"/>
+	<client texture="resources\ui\gfx\dark_gray\c_button.png" mouseOverTexture="resources\ui\gfx\dark_gray\c_button_mo.png" mousePressedTexture="resources\ui\gfx\dark_gray\c_button.png" tiling="1.0"/>
+</skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<skin border="2">
+	<left_top texture="resources\gfx\ui\lt_button.png" mouseOverTexture="resources\gfx\ui\lt_button.png" mousePressedTexture="resources\gfx\ui\lt_button_mp.png"/>
+	<top texture="resources\gfx\ui\t_button.png" mouseOverTexture="resources\gfx\ui\t_button.png" mousePressedTexture="resources\gfx\ui\t_button_mp.png"/>
+	<right_top texture="resources\gfx\ui\rt_button.png" mouseOverTexture="resources\gfx\ui\rt_button.png" mousePressedTexture="resources\gfx\ui\rt_button_mp.png"/>
+	<right texture="resources\gfx\ui\r_button.png" mouseOverTexture="resources\gfx\ui\r_button.png" mousePressedTexture="resources\gfx\ui\r_button_mp.png"/>
+	<right_bottom texture="resources\gfx\ui\rb_button.png" mouseOverTexture="resources\gfx\ui\rb_button.png" mousePressedTexture="resources\gfx\ui\rb_button_mp.png"/>
+	<bottom texture="resources\gfx\ui\b_button.png" mouseOverTexture="resources\gfx\ui\b_button.png" mousePressedTexture="resources\gfx\ui\b_button_mp.png"/>
+	<left_bottom texture="resources\gfx\ui\lb_button.png" mouseOverTexture="resources\gfx\ui\lb_button.png" mousePressedTexture="resources\gfx\ui\lb_button_mp.png"/>
+	<left texture="resources\gfx\ui\l_button.png" mouseOverTexture="resources\gfx\ui\l_button.png" mousePressedTexture="resources\gfx\ui\l_button_mp.png"/>
+	<client texture="resources\gfx\ui\c_button.png" mouseOverTexture="resources\gfx\ui\c_button_mo.png" mousePressedTexture="resources\gfx\ui\c_button_mp.png" tiling="1.0"/>
+</skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<skin border="2">
+	<left_top texture="resources\ui\gfx\lt_panel.png"/>
+	<top texture="resources\ui\gfx\t_panel.png"/>
+	<right_top texture="resources\ui\gfx\rt_panel.png"/>
+	<right texture="resources\ui\gfx\r_panel.png"/>
+	<right_bottom texture="resources\ui\gfx\rb_panel.png"/>
+	<bottom texture="resources\ui\gfx\b_panel.png"/>
+	<left_bottom texture="resources\ui\gfx\lb_panel.png"/>
+	<left texture="resources\ui\gfx\l_panel.png"/>
+	<client texture="resources\ui\gfx\c_panel.png" tiling="1.0"/>
+	<header texture="resources\ui\gfx\h_panel.png" width="16"/>
+	<arrow_icon texture="resources\ui\gfx\icons\ddl_arrow.png"/>
+	<down_arrow texture="resources\ui\gfx\icons\ddl_arrow.png"/>
+	<up_arrow texture="resources\ui\gfx\icons\up.png"/>
+	<pg_down_arrow texture="resources\ui\gfx\icons\forward-16.png"/>
+	<pg_up_arrow texture="resources\ui\gfx\icons\backward-16.png"/>
+	<imagelist_button width="64" height="24" style="dark_gray_button.xml"/>
+</skin>

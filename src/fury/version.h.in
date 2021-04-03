@@ -1,0 +1,12 @@
+#pragma once
+
+#define MAJORVER	$MajorVersion$
+#define MINORVER	$MinorVersion$
+#define REVISION	$WCREV$
+
+#define FILEVER        $MajorVersion$,$MinorVersion$,$WCREV$
+#define PRODUCTVER     $MajorVersion$,$MinorVersion$,$WCREV$
+#define STRFILEVER     "$MajorVersion$, $MinorVersion$, $WCREV$\0"
+#define STRPRODUCTVER  "$MajorVersion$, $MinorVersion$, $WCREV$\0"
+
+#define STRVERSION  "$MajorVersion$.$MinorVersion$.$WCREV$\0"

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<skin border="2" texture="dark_gray.png">
+
+	<font file="verdana_10.fnt"/>
+	
+	<cursor texture="dark_gray.png" x="0" y="34" w="16" h="24"/>
+	
+	<panel>
+		<lefttop 		x="0" 	y="0" 	w="2" 	h="2"/>
+		<top 			x="0" 	y="0" 	w="1" 	h="1"/>
+		<righttop 		x="0" 	y="0" 	w="2" 	h="2"/>
+		<right 			x="0" 	y="0" 	w="2" 	h="2"/>
+		<rightbottom 	x="0" 	y="0" 	w="2" 	h="2"/>
+		<bottom 		x="0" 	y="0" 	w="1" 	h="1"/>
+		<leftbottom 	x="0" 	y="0" 	w="2" 	h="2"/>
+		<left 			x="0" 	y="0" 	w="2" 	h="2"/>
+		<client 		x="2" 	y="0" 	w="1" 	h="1"/>
+	</panel>
+	
+	<window texture="dark_gray.png" border="8">
+		<lefttop 		x="0" 	y="2"	w="8" 	h="8"/>
+		<top 			x="8" 	y="2" 	w="8" 	h="8"/>
+		<righttop 		x="16" 	y="2" 	w="8" 	h="8"/>
+		<right 			x="24" 	y="2" 	w="8" 	h="8"/>
+		<rightbottom 	x="32" 	y="2" 	w="8" 	h="8"/>
+		<bottom 		x="40" 	y="2" 	w="8" 	h="8"/>
+		<leftbottom 	x="48" 	y="2" 	w="8" 	h="8"/>
+		<left 			x="56" 	y="2" 	w="8" 	h="8"/>
+		<client 		x="4" 	y="0" 	w="1" 	h="1"/>
+		<header 		x="4" 	y="0" 	w="1" 	h="1" 	width="16"/>
+	</window>
+
+	<button texture="dark_gray.png" border="3">
+		<lefttop>
+			<unpressed 	x="0" 	y="10" 	w="8" 	h="8"/>
+			<mouseover 	x="0" 	y="10" 	w="8" 	h="8"/>
+			<pressed 	x="24" 	y="10" 	w="8" 	h="8"/>
+		</lefttop>
+		<top>
+			<unpressed 	x="8" 	y="10" 	w="8" 	h="8"/>
+			<mouseover 	x="8" 	y="10" 	w="8" 	h="8"/>
+			<pressed 	x="32" 	y="10" 	w="8" 	h="8"/>
+		</top>
+		<righttop>
+			<unpressed 	x="16" 	y="10" 	w="8" 	h="8"/>
+			<mouseover 	x="16" 	y="10" 	w="8" 	h="8"/>
+			<pressed 	x="40" 	y="10" 	w="8" 	h="8"/>		
+		</righttop>
+		<right>
+			<unpressed 	x="8" 	y="26" 	w="8" 	h="8"/>
+			<mouseover 	x="8" 	y="26" 	w="8" 	h="8"/>
+			<pressed 	x="24" 	y="26" 	w="8" 	h="8"/>		
+		</right>
+		<rightbottom>
+			<unpressed 	x="16" 	y="18" 	w="8" 	h="8"/>
+			<mouseover 	x="16" 	y="18" 	w="8" 	h="8"/> 
+			<pressed 	x="40" 	y="18" 	w="8" 	h="8"/>		
+		</rightbottom>
+		<bottom>
+			<unpressed 	x="8" 	y="18" 	w="8" 	h="8"/>
+			<mouseover 	x="8" 	y="18" 	w="8" 	h="8"/>
+			<pressed 	x="32" 	y="18" 	w="8" 	h="8"/>		
+		</bottom>
+		<leftbottom>
+			<unpressed 	x="0" 	y="18" 	w="8" 	h="8"/>
+			<mouseover 	x="0" 	y="18" 	w="8" 	h="8"/>
+			<pressed 	x="24" 	y="18" 	w="8" 	h="8"/>		
+		</leftbottom>
+		<left>
+			<unpressed 	x="0" 	y="26" 	w="8" 	h="8"/>
+			<mouseover 	x="0" 	y="26" 	w="8" 	h="8"/> 
+			<pressed 	x="16" 	y="26" 	w="8" 	h="8"/>		
+		</left>
+		<client>
+			<unpressed 	x="6" 	y="0" 	w="2" 	h="2"/>
+			<mouseover 	x="8" 	y="0" 	w="2" 	h="2"/> 
+			<pressed 	x="10" 	y="0" 	w="2" 	h="2"/>		
+		</client>
+	</button>
+	
+	<common>
+		<arrowdown 	texture="icons\ddl_arrow.png"/>
+		<arrowup	texture="icons\up.png"/>
+		<pgdown 	texture="icons\forward-16.png"/>
+		<pgup 		texture="icons\backward-16.png"/>
+		<checkicon	x="64" 	y="0" 	w="10" 	h="10"/>
+	</common>
+
+</skin>
