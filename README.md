@@ -18,7 +18,7 @@ git clone --recurse-submodules https://github.com/Necrys/Fury.git
 cd Fury
 mkdir build
 cd build
-cmake .. -DDXSDK_PATH='f:/programming/dx9sdk' -A Win32
+cmake .. -DDXSDK_PATH='<your DirectX9 SDK installation path>' -A Win32
 cmake --build . --config Release
 ```
 
